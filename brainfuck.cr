@@ -1,10 +1,12 @@
 class BrainFuck
-  @code : String
-  @code_ptr : Int32
-  @buff : Array(Int32)
-  @buff_ptr : Int32
-  @code_ptr_stack : Array(Int32)
-  @clause_pairs : Hash(Int32, Int32)
+  def initialize(
+    @code : String,
+    @code_ptr : Int32,
+    @buff : Array(Int32),
+    @buff_ptr : Int32,
+    @code_ptr_stack : Array(Int32),
+    @clause_pairs : Hash(Int32, Int32))
+  end
 
   def initialize(source : String)
     @code = strip(source)
