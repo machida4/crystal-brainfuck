@@ -4,11 +4,11 @@
 
 ## usage
 
-compile
+# compile
 
 `$ crystal build hanoi.cr --release`
 
-execute
+# execute
 
 `$ ./hanoi.cr`
 
