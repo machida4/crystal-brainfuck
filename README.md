@@ -1,14 +1,14 @@
 # crystal-brainfuck
 
-🤯 Crystalでbrainfuckインタプリタ
+🤯 brainfuck interpreter in Crystal
 
-## execute
+## usage
 
-コンパイル
+compile
 
 `$ crystal build hanoi.cr --release`
 
-実行
+execute
 
 `$ ./hanoi.cr`
 
