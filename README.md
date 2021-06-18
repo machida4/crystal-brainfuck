@@ -4,14 +4,14 @@
 
 ## usage
 
-# compile
+### compile
 
 `$ crystal build hanoi.cr --release`
 
-# execute
+### execute
 
 `$ ./hanoi.cr`
 
-## source of hanoi.bf
+## citation of hanoi.bf
 
 http://esoteric.sange.fi/brainfuck/bf-source/prog/hanoi.bf
